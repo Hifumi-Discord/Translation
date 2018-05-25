@@ -1,0 +1,248 @@
+{
+    "adminmodule": "Administrative Commands",
+    "blockxp": {
+        "summary": "Prevent a role from gaining chat XP.",
+        "usage": "`h!blockxp`\n`h!blockxp <add | remove> <role>`"
+    },
+    "export": {
+        "summary": "Exports your server's settings as a json file. **Requires Server Owner**",
+        "usage": "`h!export`"
+    },
+    "joinmessage": {
+        "summary": "Add or remove a join message. `{user}` to mention the user. `{guild}` to print server name.",
+        "usage": "`h!joinmessage`\n`h!joinmessage add <message>`\n`h!joinmessage remove`"
+    },
+    "leavemessage": {
+        "summary": "Add or remove a leave message. `{user}` to print user's name. `{guild}` to print server name.",
+        "usage": "`h!leavemessage`\n`h!leavemessage add <message>`\n`h!leavemessage remove`"
+    },
+    "levelrole": {
+        "summary": "Add or remove a leveled role",
+        "usage": "`h!levelrole`\n`h!levelrole <add | remove> <role> <level>"
+    },
+    "messagelog": {
+        "summary": "Retrieves a message from the deleted message log (if enabled).",
+        "usage": "`h!messagelog <message number>`\n`h!messagelog <user> <message number>`"
+    },
+    "selfrolelist": {
+        "summary": "Add or remove a self assignable role",
+        "usage": "`h!selfrolelist <add | remove> <role>`"
+    },
+    "setting": {
+        "summary": "Adjust settings for your server.",
+        "usage": "`h!setting`\n`h!setting <setting> <value>`"
+    },
+    "subreddit": {
+        "summary": "Add or remove a subreddit.",
+        "usage": "`h!subreddit`\n`h!subreddit <add | remove> <subreddit>"
+    },
+    "toggle": {
+        "summary": "Adjust settings for your server.",
+        "usage": "`h!toggle <setting>`"
+    },
+    "economy": "Economy Commands",
+    "daily": {
+        "summary": "Get your daily amount of credits.",
+        "usage": "`h!daily`"
+    },
+    "rank": {
+        "summary": "Shows a user's guild ranking.",
+        "usage": "`h!rank`\n`h!rank <user>`"
+    },
+    "top": {
+        "summary": "Shows the server's scoreboard.",
+        "usage": "`h!top`"
+    },
+    "funmodule": "Fun Commands",
+    "clap": {
+        "summary": "Replaces spaces in your message with the clap emoji.",
+        "usage": "`h!clap <message>`"
+    },
+    "clapd": {
+        "summary": "Deletes your message and replaces spaces in the message with the clap emoji.",
+        "usage": "`h!clapd <message>`"
+    },
+    "expand": {
+        "summary": "Converts text to full width.",
+        "usage": "`h!expand <message>`"
+    },
+    "expandd": {
+        "summary": "Deletes your message and converts the text to full width.",
+        "usage": "`h!expandd <message>`"
+    },
+    "fox": {
+        "summary": "Get an image of a random fox.",
+        "usage": "`h!fox`"
+    },
+    "neko": {
+        "summary": "Get a neko girl image. Option --[gif/holo/kemono/kitsune]",
+        "usage": "`h!neko`\n`h!neko <option>`"
+    },
+    "owo": {
+        "summary": "OwOifies your text.",
+        "usage": "`h!owo <message>`"
+    },
+    "rip": {
+        "summary": "Mark the death of a user.",
+        "usage": "`h!rip <user>`"
+    },
+    "gamesmodule": "Game Commands",
+    "osu": {
+        "summary": "Get information from osu!",
+        "usage": "`h!osu`"
+    },
+    "steam": {
+        "summary": "Show a user's steam profile.",
+        "usage": "`h!steam <user id>`"
+    },
+    "wows": {
+        "summary": "Show a user's World of Warships profile.",
+        "usage": "`h!wows`"
+    },
+    "generalmodule": "General Commands",
+    "afk": {
+        "summary": "Set yourself as afk.",
+        "usage": "`h!afk`\n`h!afk <message>"
+    },
+    "ping": {
+        "summary": "Check Hifumi's network latency.",
+        "usage": "`h!ping`"
+    },
+    "feedback": {
+        "summary": "Give feedback on Hifumi's performance, or submit a quick bug report.",
+        "usage": "`h!feedback`"
+    },
+    "selfroles": {
+        "summary": "Get or remove a self assignable role.",
+        "usage": "`h!selfroles <get | remove | list>`"
+    },
+    "helpmodule": "Help Commands",
+    "help": {
+        "summary": "Displays all of the commands.",
+        "usage": "`h!help`"
+    },
+    "info": {
+        "summary": "Shows more information about a command and its usage.",
+        "usage": "`h!info <command>`"
+    },
+    "support": {
+        "summary": "Provides a link to Hifumi's support server.",
+        "usage": "`h!support`"
+    },
+    "imagemodule": "Image Commands",
+    "cuddle": {
+        "summary": "Cuddle up with a user.",
+        "usage": "`h!cuddle <user>`"
+    },
+    "feed": {
+        "summary": "Share food with a user.",
+        "usage": "`h!feed <user>`"
+    },
+    "hug": {
+        "summary": "Give a user a hug.",
+        "usage": "`h!hug <user>`"
+    },
+    "kiss": {
+        "summary": "Give a user a kiss.",
+        "usage": "`h!kiss <user>`"
+    },
+    "pat": {
+        "summary": "Give a user a head pat.",
+        "usage": "`h!pat <user>`"
+    },
+    "poke": {
+        "summary": "Poke a user.",
+        "usage": "`h!poke <user>`"
+    },
+    "slap": {
+        "summary": "Slap a user.",
+        "usage": "`h!slap <user>`"
+    },
+    "tickle": {
+        "summary": "Tickle a user.",
+        "usage": "`h!tickle <user>`"
+    },
+    "modmodule": "Moderation Commands",
+    "ban": {
+        "summary": "Bans a user from the server.",
+        "usage": "`h!ban <user> <reason>`\n`h!ban <user id>`\n`h!ban <user 1> <user 2> <...>`"
+    },
+    "blacklist": {
+        "summary": "Prevent a user from using Hifumi's features in your server.",
+        "usage": "`h!blacklist <add | remove> <user>`"
+    },
+    "kick": {
+        "summary": "Kicks a user from the server.",
+        "usage": "`h!kick <user> <reason>`\n`h!kick <user 1> <user 2> <...>`"
+    },
+    "mute": {
+        "summary": "Mute a user.",
+        "usage": "`h!mute <user> <reason>`"
+    },
+    "purge": {
+        "summary": "Deletes messages from a channel. Default amount is 10.",
+        "usage": "`h!purge <amount>`\n`h!purge <user> <amount>"
+    },
+    "reason": {
+        "summary": "Specify or change the reason of a mod log case.",
+        "usage": "`h!reason <case number> <reason>`"
+    },
+    "resetwarns": {
+        "summary": "Reset a user's warnings.",
+        "usage": "`h!resetwarns <user>`"
+    },
+    "unban": {
+        "summary": "Removes a user's ban.",
+        "usage": "`h!unban <user> <reason>`\n`h!unban <user id>`"
+    },
+    "unmute": {
+        "summary": "Unmute a user.",
+        "usage": "`h!unmute <user>`"
+    },
+    "warning": {
+        "summary": "Gives a user a warning.",
+        "usage": "`h!warn <user> <reason>`"
+    },
+    "nsfwmodule": "NSFW Commands",
+    "cureninja": {
+        "summary": "Searches Cureninja for tags.",
+        "usage": "`h!cureninja <tag> <...>`"
+    },
+    "danbooru": {
+        "summary": "Searches Danbooru for tags.",
+        "usage": "`h!danbooru <tag> <...>`"
+    },
+    "ero": {
+        "summary": "Gets an ero image (more softcore than lewd).",
+        "usage": "`h!ero`\n`h!ero <option>`"
+    },
+    "gelbooru": {
+        "summary": "Searches Gelbooru for tags.",
+        "usage": "h!gelbooru <tag> <...>"
+    },
+    "konachan": {
+        "summary": "Searches konachan for tags.",
+        "usage": "`h!konachan <tag> <...>`"
+    },
+    "lewd": {
+        "summary": "Get some lewd imagery.",
+        "usage": "`h!lewd`\n`h!lewd <option>"
+    },
+    "rule34": {
+        "summary": "Searches Rule34 for tags.",
+        "usage": "`h!rule34 <tag> <...>`"
+    },
+    "yandere": {
+        "summary": "Searches Yandere for tags.",
+        "usage": "`h!yandere <tag> <...>`"
+    },
+    "searchmodule": "Search Commands",
+    "dotnet": {
+        "summary": "Searches the Microsoft Docs for classes, methods, and namespaces.",
+        "usage": "`h!dotnet <search>`"
+    },
+    "lmgtfy": {
+        "summary": "Help someone search for something who is unable to.",
+        "usage": "`h!lmgtfy <search>`"
+    }
+}
