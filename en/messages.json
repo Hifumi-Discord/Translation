@@ -1,0 +1,6 @@
+{
+    "default-join": "Welcome **{user}** to the server. {{happy}}",
+    "default-leave": "**{user}** left the server. {{sad}}",
+    "low-access": "{command} requires **{access}** permissions.",
+    "require-nsfw": "{command} can only be run in an NSFW channel."
+}

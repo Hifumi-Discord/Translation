@@ -1,6 +1,0 @@
-{
-    "everyone": "Role cannot be everyone role.",
-    "no-messagelog": "There are no deleted messages in the log.",
-    "no-managed-role": "Can't assign managed roles.",
-    "require_owner": "You must be the server's owner to do this."
-}

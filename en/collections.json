@@ -1,7 +1,0 @@
-{
-    "added": "{item} has been added.",
-    "added-to": "`{item}` has been added to {collection}.",
-    "empty": "Guild does not have any {collection}.",
-    "removed": "{item} has been removed.",
-    "removed-from": "`{item}` has been removed from {collection}."
-}
